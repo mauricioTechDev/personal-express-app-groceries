@@ -1,4 +1,5 @@
 # ✅ Personal Express Grocery Shopping App
+People live busy lives.  We are not able to get all of our shopping done at the same time.  So I made an handy app that keeps track of the groceries you have yet to buy. You can mark down when you have it.  So you dont have duplicates of anything.  You can also delete items. If you want to go with something healthier ;)
 
 ![alt text](grocery-list-screen-shot.png)
 
