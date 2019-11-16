@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+    <section>
+      <h1>Dont Forget Your Grocery List</h1>
+    </section>
+    <section class="instructions">
+      <section>
+        <span>Press &#11088;= YOU GOT IT!</span>
+      </section>
+      <section>
+        <span>Press &#10060;= DELETE FROM LIST</span>
+      </section>
+    </section>
+    <section>
+      <span class="itemList">ITEM</span>
+      <span class="priceList" >PRICE</span>
+    </section>
+  </section>
+  <section>
+    <ul class="items">
+    <% for(var i=0; i<items.length; i++) {%>
+      <li class="item">
+        <span><%= items[i].name %></span>
+        <span><%= items[i].price %></span>
+        <span class="importantItem" >&#11088;</span>
+        <span class="erase">&#10060;</span>
+      </li>
+    <% } %>
+    </ul>
+  </section>
+  <section>
+    <section class="inputSection">
+      <form action="/items" method="POST">
+        <input type="text" placeholder="item" name="name">
+        <input type="number" placeholder="price" name="price" min="0" max="9999" step="0.01">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>

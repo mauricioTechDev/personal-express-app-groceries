@@ -1,0 +1,36 @@
+html {
+  font-size: 20px;
+}
+body{
+  background-color: #ffff8d;
+}
+section{
+  text-align: center;
+  margin: 1% 1% 1% 1%;
+}
+.instructions{
+  margin: 4% .4% 3% .4%;
+}
+.itemList, .priceList{
+  font-size: 22px;
+  margin: 1% .4% 1% .4%;
+  text-decoration: underline;
+}
+.items{
+  list-style: none;
+}
+
+.item {
+  margin-top: 0.5em;
+}
+
+.item > span:first-child {
+  font-weight: bold
+}
+
+.item > span:first-child:after {
+  content:':'
+}
+.inputSection{
+  margin: 10% 1% 1% 1%
+}
