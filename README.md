@@ -1,6 +1,6 @@
 # ✅ Personal Express Grocery Shopping App
 
-![alt text](groceryList screenShots.png)
+![alt text](grocery-list-screen-shot.png)
 
 
 Tech Used:
